@@ -95,7 +95,7 @@ const displayAuthorCard2 = (data) => {
         // const badgeClass = `badge badge-sm -mt-3 ${card.isActive ? "bg-green-600" : "bg-red-600"}`;
 
         div.innerHTML = `
-         <div class="card bg-base-100 w-96 max-h-[482px] shadow-xl">
+         <div class="card bg-base-100 lg:w-96 w-screen max-h-[482px] shadow-xl">
                 <figure class="px-10 pt-10">
                     <img src="${card.cover_image}" alt="Shoes"
                         class="rounded-xl" />
